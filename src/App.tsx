@@ -17,8 +17,9 @@ function App() {
   return (
     <>
       <div>
-        <p>{counter}</p>
+        
         <div className="flex gap-3 mt-4">
+          <h3>Counter: {counter}</h3>
           <button className="font-bold border-2 border-amber-800  p-2 rounded-xl cursor-pointer" onClick={handleIncrement}>Increment</button>
           <button className="font-bold border-2 border-amber-800  p-2 rounded-xl cursor-pointer" onClick={handleDecrement}>Decrement</button>
         </div>
