@@ -2,12 +2,18 @@
 
 function App() {
 
+  const handleIncrement = ()=>{
+
+  }
+  const handleDecrement = ()=>{
+
+  }
 
   return (
     <>
     <div>
-      <button>Increment</button>
-      <button>Decrement</button>
+      <button onClick={handleIncrement}>Increment</button>
+      <button onClick={handleDecrement}>Decrement</button>
     </div>
     </>
   )
